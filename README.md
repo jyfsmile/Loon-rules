@@ -1,6 +1,6 @@
 # loon-rules
 
-Loon 分流规则集，按类别分类存放。私有仓库。
+Loon 分流规则集，按类别分类存放。公开仓库（Loon 远程拉取需公开，私有仓库 raw 地址不登录返回 404）。
 
 ## 目录
 
@@ -17,8 +17,11 @@ Loon 分流规则集，按类别分类存放。私有仓库。
 每个 `.list` 都是远程规则集（不带策略组）：
 
 1. Loon → 配置 → 规则 → 添加远程规则
-2. URL 填对应文件的 raw 地址，例如 Rex：
-   `https://raw.githubusercontent.com/jyfsmile/Loon-rules/main/rules/rex/rex.list`
+2. URL 填对应文件的地址，Rex：
+   - 国内推荐（jsDelivr，raw.githubusercontent.com 在国内经常拉不到）：
+     `https://cdn.jsdelivr.net/gh/jyfsmile/Loon-rules@main/rules/rex/rex.list`
+   - 原始地址：
+     `https://raw.githubusercontent.com/jyfsmile/Loon-rules/main/rules/rex/rex.list`
 3. 策略选你的代理策略组（如节点选择），保存即可
 
 也可以把 `.list` 里的规则逐行粘到本地配置的 `[Rule]` 里，末尾加上 `,你的策略组名`，放在 `FINAL` 之前。
