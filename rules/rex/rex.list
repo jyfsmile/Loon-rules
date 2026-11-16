@@ -34,7 +34,9 @@ DOMAIN-SUFFIX,externulls.com
 DOMAIN-SUFFIX,pimpbunny.com
 
 # --- YesPorn VIP (forward.yesporn.js: latest, sort_by=post_date/rating) ---
+# 模块实际请求的是 yesporn.vip, 与 yesporn.com 是同一站 (同 gtag、同标题)。
 DOMAIN-SUFFIX,yesporn.com
+DOMAIN-SUFFIX,yesporn.vip
 
 # --- 4KPorno (forward.4kporno.js: latest) ---
 # 注意: 真站是 4kporno.xxx, 不是 4kporno.com (.com 只是个跳转页)。
