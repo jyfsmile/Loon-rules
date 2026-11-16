@@ -37,4 +37,6 @@ DOMAIN-SUFFIX,pimpbunny.com
 DOMAIN-SUFFIX,yesporn.com
 
 # --- 4KPorno (forward.4kporno.js: latest) ---
-DOMAIN-SUFFIX,4kporno.com
+# 注意: 真站是 4kporno.xxx, 不是 4kporno.com (.com 只是个跳转页)。
+# 封面图走 img.4kporno.xxx, 都在 4kporno.xxx 后缀内。
+DOMAIN-SUFFIX,4kporno.xxx
