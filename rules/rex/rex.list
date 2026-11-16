@@ -1,6 +1,6 @@
 # Rex .rex — Loon 分流规则
 # 来源: upload.rex (Rex home-package, format video.fika.rex.home-package)
-# 包含 5 个模块: Pornhub / Beeg / PimpBunny(Onlyfans) / YesPorn / 4KPorno
+# 包含 6 个模块: Pornhub / Beeg / PimpBunny(Onlyfans) / YesPorn / 4KPorno / HQporner
 # 更新: 2026-11-17
 #
 # 重要说明: 包里 5 个 .js 脚本都是 REXENC 加密的
@@ -42,3 +42,20 @@ DOMAIN-SUFFIX,yesporn.vip
 # 注意: 真站是 4kporno.xxx, 不是 4kporno.com (.com 只是个跳转页)。
 # 封面图走 img.4kporno.xxx, 都在 4kporno.xxx 后缀内。
 DOMAIN-SUFFIX,4kporno.xxx
+
+# --- HQporner v1.0.0 (作者: 廿二日, #REX #NSFW模块) ---
+# 主站 hqporner.com (实测 200, 标题 HD Porn Videos Tube),
+# 图床 fastporndelivery.hqporner.com 在 hqporner.com 后缀内;
+# mydaddy.cc 是播放器解析源, bigcdn.cc 是底层视频流 CDN。
+# 另 8 条 DOMAIN-KEYWORD 是模块附带的短视频站。
+DOMAIN-SUFFIX,hqporner.com
+DOMAIN-SUFFIX,mydaddy.cc
+DOMAIN-SUFFIX,bigcdn.cc
+DOMAIN-KEYWORD,tik.porn
+DOMAIN-KEYWORD,fyptt
+DOMAIN-KEYWORD,porntok
+DOMAIN-KEYWORD,reddclips
+DOMAIN-KEYWORD,reelsmunkey
+DOMAIN-KEYWORD,shortsxxx
+DOMAIN-KEYWORD,xxtok
+DOMAIN-KEYWORD,xxxfollow
